@@ -1,0 +1,75 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.header_logo {
+    object-fit: contain;
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_optionLineOne {
+    font-size: 10px;
+
+}
+
+..header_optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_link {
+    color: white;
+    text-decoration: none;
+}
+
+.header_search {
+    display: flex;
+    flex: 1;
+}
+
+
+.header_searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+}
+
+.header_optionBasketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_searchIcon {
+    background-color: #cd9042;
+    padding: 4px;
+    /* as mui do have their own css so we have to use "!important" */
+    height: 20.8px !important;
+}

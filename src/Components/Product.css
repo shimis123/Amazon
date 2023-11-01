@@ -1,0 +1,60 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+
+    /* taking into the banner */
+    margin: 10px;
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
+}
+
+.product>img {
+    max-width: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+
+    /* hover to zoom */
+    transition: transform .2s;
+    /* Animation */
+
+}
+
+.product>img:hover {
+    transform: scale(1.6);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.product_info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product_price {
+    margin-top: 5px;
+}
+
+.product_rating {
+    display: flex;
+}
+
+.product>button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+
+    font-size: large;
+    padding: 5px;
+}
+
+.product>button:hover {
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}
